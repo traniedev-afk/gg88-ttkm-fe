@@ -1,0 +1,27 @@
+/* style.module.css */
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0.3;
+    }
+    50% {
+      opacity: 1.5;
+    }
+    100% {
+      opacity: 0.3;
+    }
+  }
+  
+  .fadeIn {
+    animation: fadeIn 4s ease-in-out infinite;
+  }
+  
+  .logo {
+    height: 4rem; /* Chiều cao logo */
+  }
+  @media (max-width: 768px) {
+    .logo {
+      height: 3rem; /* Chiều cao logo cho điện thoại */
+    }
+  }
+  
